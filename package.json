@@ -1,0 +1,19 @@
+{
+  "name": "authorizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "auth": "node src/app.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "PragmaticProgrammer",
+  "license": "ISC",
+  "dependencies": {
+    "split": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
